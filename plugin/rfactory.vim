@@ -23,7 +23,9 @@ let s:factory_path_patterns = [
       \ "spec/factories.rb",
       \ "test/factories.rb",
       \ "spec/factories/*.rb",
-      \ "test/factories/*.rb"
+      \ "test/factories/*.rb",
+      \ "**/spec/factories/*.rb",
+      \ "**/test/factories/*.rb"
       \ ]
 
 function! s:FactoryOnCurrentLine()
